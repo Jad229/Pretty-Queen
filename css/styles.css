@@ -1,0 +1,15 @@
+
+/* main content styles */
+
+main{
+    display: flex;
+}
+main .container-fluid{
+    width: 50vw;
+    height: auto;
+}
+
+.hero-img{
+    background-color: gold;
+}
+
