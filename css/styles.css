@@ -1,15 +1,57 @@
 
 /* main content styles */
 
-main{
-    display: flex;
+body{
+    background-color: black;
 }
-main .container-fluid{
-    width: 50vw;
-    height: auto;
+header{
+    background-color: white;
 }
 
+main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.call-to-action-wrapper{
+    width: 50%;
+}
+
+.call-to-action{
+    margin-top: 30%;
+    width: 70%;
+    height: 50%;
+}
+
+main h1, main p{
+    color: white;
+}
+
+main button{
+    width: 100px;
+}
+
+@media(max-width: 700px){
+
+    header, .call-to-action, footer{
+        width: 100vw;
+    }
+    .call-to-action{
+        text-align: center;
+    }
+    .hero-img{
+        display: none;
+    }
+}
 .hero-img{
+    width: 50%;
     background-color: gold;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
