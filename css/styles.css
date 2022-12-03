@@ -16,6 +16,10 @@ header .navbar a{
     color: #F1FFAB;
 }
 
+header .dropdown-menu a {
+    color: black;
+}
+
 header .navbar-brand{
     font-size: 1.3rem;
 }
