@@ -11,17 +11,60 @@ body{
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+header, footer{
+    z-index: 1000;
+}
 
 header .navbar a{
-    color: #F1FFAB;
+    color: #FFE05D;
 }
 
 header .dropdown-menu a {
-    color: black;
+    color: #F1FFAB;
 }
 
 header .navbar-brand{
     font-size: 1.3rem;
+}
+
+#book-appointment-btn{
+    background-color: #FFE05D;
+}
+.service-content h1{
+    text-align: center;
+}
+.treatment-card h5{
+    color: #FFE05D;
+}
+.treatment-card p{
+    color: lightgrey;
+}
+@media(max-width: 700px){
+    .fullnav{
+        display: none;
+    }
+    #sidenav{
+        display: none;
+    }
+}
+@media (min-width: 700px){
+    .hamburger{
+        display: none;
+    }
+}
+.side-menu{
+    min-height: 88.6vh;
+    min-width: 20vw;
+}
+
+.side-menu h2{
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.side-menu button{
+    font-size: 2rem;
 }
 
 .hero-section{
@@ -56,6 +99,6 @@ footer .navbar{
     justify-content: center;
     align-items: center;
     background-color: black;
-    color: #F1FFAB;
+    color: #FFE05D;
 }
 
