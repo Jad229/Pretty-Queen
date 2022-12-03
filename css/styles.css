@@ -1,57 +1,57 @@
-
-/* main content styles */
-
+/* DEVELOPER: Justin Diaz, IS117-003, Fall 2022 */
+*{
+    font-family: 'Outfit', sans-serif;
+}
 body{
-    background-color: black;
-}
-header{
-    background-color: white;
-}
 
-main{
     display: flex;
-    width: 100%;
-    height: 100vh;
+    flex-direction: column;
+    background-image: url("../images/marble-texture.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
-.call-to-action-wrapper{
-    width: 50%;
+header .navbar a{
+    color: #F1FFAB;
 }
 
-.call-to-action{
-    margin-top: 30%;
-    width: 70%;
-    height: 50%;
+header .navbar-brand{
+    font-size: 1.3rem;
 }
 
-main h1, main p{
-    color: white;
+.hero-section{
+    margin: 10% auto;
 }
 
-main button{
-    width: 100px;
+.hero-card{
+    max-width: 70%;
+    margin: auto;
+}
+.card-body h1{
+    font-weight: 900;
+}
+.card-body{
+    margin: 50px auto 0;
+    width: 60%;
+    text-align: center;
 }
 
-@media(max-width: 700px){
-
-    header, .call-to-action, footer{
-        width: 100vw;
-    }
-    .call-to-action{
-        text-align: center;
-    }
-    .hero-img{
-        display: none;
-    }
-}
-.hero-img{
-    width: 50%;
-    background-color: gold;
+.card-btn{
+    max-width: 170px;
+    height: 78px;
 }
 
 footer{
+    margin-top: auto;
+}
+
+footer .navbar{
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: black;
+    color: #F1FFAB;
 }
+
