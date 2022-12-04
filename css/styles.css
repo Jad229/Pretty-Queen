@@ -101,6 +101,19 @@ header .navbar-brand{
     width: 78vw;
     height: 10vh;
 }
+.carousel{
+    margin: 5% auto;
+    width:640px;
+    height:360px;
+}
+
+.about-container{
+    text-align: center;
+}
+.about-content{
+    margin: auto;
+}
+
 footer{
     margin-top: auto;
 }
